@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: green !important;
+    color: whitesmoke !important;
+}
+
+#input, #output, #hash, #reset, #cryptoSelect {
+    border-radius: 10px;
+}
+
+#input, #output, #cryptoSelect {
+    margin-top: 5px;
+    width: 70%;
+    display: inline-block;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+#sitename {
+    display: inline;
+}
+
+#copyright {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

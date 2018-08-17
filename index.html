@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HashApp</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Federico Augello">
+    <meta name="description" content="Applicativo per cifrare del testo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="img/png" href="img/hashIcon.png" >
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
+</head>
+<body>
+    <div id="container-fluid">
+        <div id="headcontainer">
+            <header> <!--Logo e immagine-->
+                <img id="logo" src="img/hashIcon.png" alt="HashApp Logo">
+                <h1 id="sitename">HashApp</h1>
+            </header>
+        </div>
+        <div id="io_div">
+            <form id="form-group">
+            <input type="text" name="input" id="input" autocomplete="off" placeholder="Insert some text" class="form-control"> 
+            <input type="button" id="hash" value="Hash" class="btn">
+            <input type="text" name="output" id="output" autocomplete="off" placeholder="Encode of input text" readonly class="form-control">
+            <input type="reset" id="reset" value="Reset" class="btn">
+            <select class="form-control" id="cryptoSelect">
+                <option>MD5</option>
+                <option>SHA-1</option>
+                <option>SHA-256</option>
+                <option>SHA-384</option>
+                <option>SHA-512</option>
+            </select>
+            <span class="label label-default">Hash Function</span>
+            </form>
+        </div>
+    </div>
+    <footer id="copyright">&copy; Copyright Federico Augello</footer>
+    
+    <!-- jQuery -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+     <!-- Hashing -->
+    <script src="./js/crypto-js.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
