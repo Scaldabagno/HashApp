@@ -9,13 +9,13 @@ body {
     color: whitesmoke !important;
 }
 
-#input, #output, #hash, #reset, #cryptoSelect {
+#input, #output, #cryptoSelect, #hash, #reset, #copyHash {
     border-radius: 10px;
 }
 
 #input, #output, #cryptoSelect {
     margin-top: 5px;
-    width: 70%;
+    width: 75%;
     display: inline-block;
 }
 
