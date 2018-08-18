@@ -12,9 +12,9 @@ Available hash functions(for the moment):
 
 ## TODO
 
-[ ] Create some executables
-[X] Add other hash functions
-[ ] Add an hash function multiplier (make that function than 1 time) *
+- [ ] Create some executables
+- [X] Add other hash functions
+- [ ] Add an hash function multiplier (make that function than 1 time) *
 
 \* Such as, in a horrible pseudocode:
 
