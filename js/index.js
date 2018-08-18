@@ -15,6 +15,13 @@ function hash(){
             document.getElementById('output').value = hash;
             return true;
         });
+    }if($('#cryptoSelect').val() === "SHA-224"){
+        $('#hash').click(function(event){
+            var input = document.getElementById('input').value;
+            var hash = CryptoJS.SHA224(input);
+            document.getElementById('output').value = hash;
+            return true;
+        });
     }if($('#cryptoSelect').val() === "SHA-256"){
         $('#hash').click(function(event){
             var input = document.getElementById('input').value;
@@ -36,6 +43,13 @@ function hash(){
             document.getElementById('output').value = hash;
             return true;
         });
+    }if($('#cryptoSelect').val() === "SHA-3"){
+        $('#hash').click(function(event){
+            var input = document.getElementById('input').value;
+            var hash = CryptoJS.SHA3(input);
+            document.getElementById('output').value = hash;
+            return true;
+        });
     }
     // Verifies Dropdown value on click    
     $('#cryptoSelect').on('click',function() {
@@ -51,6 +65,13 @@ function hash(){
             $('#hash').click(function(event){
                 var input = document.getElementById('input').value;
                 var hash = CryptoJS.SHA1(input);
+                document.getElementById('output').value = hash;
+                return true;
+            });
+        }if($('#cryptoSelect').val() === "SHA-224"){
+            $('#hash').click(function(event){
+                var input = document.getElementById('input').value;
+                var hash = CryptoJS.SHA224(input);
                 document.getElementById('output').value = hash;
                 return true;
             });
@@ -72,6 +93,13 @@ function hash(){
             $('#hash').click(function(event){
                 var input = document.getElementById('input').value;
                 var hash = CryptoJS.SHA512(input);
+                document.getElementById('output').value = hash;
+                return true;
+            });
+        }if($('#cryptoSelect').val() === "SHA-3"){
+            $('#hash').click(function(event){
+                var input = document.getElementById('input').value;
+                var hash = CryptoJS.SHA3(input);
                 document.getElementById('output').value = hash;
                 return true;
             });
