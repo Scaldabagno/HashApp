@@ -15,7 +15,7 @@ body {
 
 #input, #output, #cryptoSelect {
     margin-top: 5px;
-    width: 75%;
+    width: calc(100% - 80px);
     display: inline-block;
 }
 
