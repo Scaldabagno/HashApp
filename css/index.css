@@ -11,10 +11,11 @@ body {
 
 #input, #output, #cryptoSelect, #hash, #reset, #copyHash {
     border-radius: 10px;
+    vertical-align: baseline;
+    margin-top: 15px;
 }
 
 #input, #output, #cryptoSelect {
-    margin-top: 5px;
     width: calc(100% - 80px);
     display: inline-block;
 }
