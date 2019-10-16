@@ -14,7 +14,7 @@ Just an utility to calculate some hash functions
 
 ## TODO
 
-[ ] New and better UI
-[ ] Other functions
-[ ] Possibility to calculate hashes more times
-[ ] Make functions by myself or find another library
+- [ ] New and better UI
+- [ ] Other functions
+- [ ] Possibility to calculate hashes more times
+- [ ] Make functions by myself or find another library
