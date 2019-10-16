@@ -2,7 +2,7 @@
 
 Just an utility to calculate some hash functions
 
-## Available hash functions(for the moment):
+## Available hash functions(for the moment)
 
 * MD5
 * SHA-1
